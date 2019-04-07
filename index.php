@@ -13,7 +13,7 @@
 	  return $res;
 	}
 
-	$data = explode("<font size='6' color='#FFFFFF'><a style='color:#004b8c;text-decoration:none'>", bacaHTML('http://68.183.185.124/hongkong/'));
+	$data = explode("<font size='6' color='#FFFFFF'><a style='color:#004b8c;text-decoration:none'>", grabbing('http://68.183.185.124/hongkong/'));
 
 	$string = substr($data[1], 0,4);
 
